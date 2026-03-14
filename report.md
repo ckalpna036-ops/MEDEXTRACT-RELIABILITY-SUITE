@@ -1,6 +1,6 @@
 # 📊 HiLabs Workshop — Evaluation Report
 
-> Generated: 2026-03-14 13:10  
+> Generated: 2026-03-14 13:40  
 > Pipeline: OCR → Clinical NLP → Entity Extraction
 
 ---
@@ -45,7 +45,7 @@ The evaluator compares extracted structured entities against reference labels an
 
 Rows = entity types, Columns = categorical fields. Cell = accuracy.
 
-![Error Heat-map](output/error_heatmap.png)
+![Error Heat-map](output\error_heatmap.png)
 
 ## 2B. Input vs Output Analysis (Examples)
 
