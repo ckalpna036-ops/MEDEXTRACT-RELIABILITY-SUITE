@@ -1,0 +1,82 @@
+[
+  {
+    "entity": "Aspirin",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "heading": "MEDICATIONS",
+    "text": "Aspirin 81mg daily (oral)",
+    "metadata_from_qa": {
+      "DOSE": "81mg",
+      "FREQUENCY": "daily",
+      "ROUTE": "oral"
+    }
+  },
+  {
+    "entity": "Lisinopril",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "heading": "MEDICATIONS",
+    "text": "Lisinopril 10mg once daily for hypertension",
+    "metadata_from_qa": {
+      "DOSE": "10mg",
+      "FREQUENCY": "once daily"
+    }
+  },
+  {
+    "entity": "Hypertension",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "heading": "PAST MEDICAL HISTORY",
+    "text": "Hypertension (diagnosed 2010)",
+    "metadata_from_qa": {}
+  },
+  {
+    "entity": "Type 2 Diabetes Mellitus",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "heading": "PAST MEDICAL HISTORY",
+    "text": "Type 2 Diabetes Mellitus",
+    "metadata_from_qa": {}
+  },
+  {
+    "entity": "coronary artery disease",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "heading": "ASSESSMENT & PLAN",
+    "text": "Patient has stable coronary artery disease",
+    "metadata_from_qa": {}
+  },
+  {
+    "entity": "stress test",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "heading": "ASSESSMENT & PLAN",
+    "text": "Schedule stress test",
+    "metadata_from_qa": {}
+  },
+  {
+    "entity": "HbA1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "heading": "VITAL SIGNS",
+    "text": "HbA1c: 7.2%",
+    "metadata_from_qa": {
+      "TEST_VALUE": "7.2",
+      "TEST_UNIT": "%"
+    }
+  }
+]
